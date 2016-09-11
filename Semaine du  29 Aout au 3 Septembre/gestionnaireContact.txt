@@ -1,0 +1,14 @@
+var gestionnaireContact= {
+  contacts:[],
+  ajouteContact:function(nom, prenom, mail){
+    var nouveauContact = {
+      mail:mail,
+      nom:nom,
+      prenom:prenom
+      
+    };
+    
+    this.contacts.push(nouveauContact);
+    console.log(this.contact)
+  }
+}
